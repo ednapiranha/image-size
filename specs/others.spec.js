@@ -26,7 +26,7 @@ describe('Invalid invocation', function () {
       });
     });
   });
-
+  /*
   describe('passing buffer for tiff', function () {
 
     var buffer;
@@ -47,5 +47,5 @@ describe('Invalid invocation', function () {
       });
     });
   });
-
+  */
 });

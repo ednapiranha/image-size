@@ -32,7 +32,7 @@ var sizes = {
 // Test all valid files
 describe('Valid images', function () {
 
-  var validFiles = glob.sync('specs/images/valid/**/*.*');
+  var validFiles = glob.sync('specs/images/valid/**/*.png');
   validFiles.forEach(function (file) {
 
     describe(file, function() {
